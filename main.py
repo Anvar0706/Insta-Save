@@ -39,5 +39,5 @@ async def src_send(message: types.Message):
         await message.answer("Link xato kiritilgan...")
       await bot.delete_message(chat_id=message.from_user.id, message_id=msgid)  
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp, skip_updates=False)
      # https://www.instagram.com/tv/CYIoTm8gbHb/?utm_medium=copy_link
